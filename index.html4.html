@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creepster Font Example</title>
+    <!-- Link to Google Fonts for Creepster -->
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: 'Creepster', cursive; /* Use Creepster font */
+            background-color: #000; /* Light red background color */
+            color: #FF0000; /* Black text color */
+            text-align: center; /* Center-align text */
+            margin: 0; /* Remove default margin */
+            padding: 20px; /* Add padding around the content */
+        }
+
+        footer {
+            margin-top: 20px; /* Add space above the footer */
+            font-size: 1.2em; /* Slightly larger text for the footer */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Website!</h1>
+    <p>This is a sample page using the Creepster font.</p>
+
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+
+    <script type="text/javascript">
+        // Get the last modified date of the document and display it in the footer
+        document.getElementById('lastModified').textContent = document.lastModified;
+    </script>
+</body>
+</html>
